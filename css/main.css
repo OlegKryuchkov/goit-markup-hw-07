@@ -442,7 +442,7 @@ body {
   color: #000000;
 }
 
-.logo__headerspan {
+.logo__header-span {
   color: var(--header-text-accent);
 }
 
@@ -551,19 +551,19 @@ body {
   padding-top: 94px;
 }
 
-.benefits .benefits__list {
+.benefits .cardlist__list {
   display: flex;
   justify-content: space-between;
 }
 
-.benefits__item {
+.cardlist__item {
   margin-left: 30px;
 }
-.benefits__item:first-child {
+.cardlist__item:first-child {
   margin-left: 0;
 }
 
-.benefits__item-title {
+.cardlist__item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
@@ -573,7 +573,7 @@ body {
   margin-bottom: 10px;
 }
 
-.benefits__item-description {
+.cardlist__item-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7142857143;
@@ -581,7 +581,7 @@ body {
   color: var(--body-text-secondary);
 }
 
-.benefits__list-icon {
+.cardlist__list-icon {
   display: flex;
   margin-left: auto;
   margin-right: auto;
